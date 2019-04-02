@@ -60,4 +60,4 @@ bot.on("guildMemberAdd", function(member)
     }
 });
 
-bot.login(TOKEN);
+bot.login(process.env.TOKEN);
